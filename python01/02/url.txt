@@ -1,0 +1,51 @@
+http://www.vpser.net/uncategorized/choose-vps.html
+http://www.vpser.net/vps-cp/hypervm-tutorial.html
+http://www.vpser.net/coupons/diavps-april-coupons.html
+http://www.vpser.net/security/vps-backup-web-mysql.html
+#建立10gsysbench数据
+sysbench fileio --file-num=10 --file-total-size=10G prepare
+#随机读写io测试
+sysbench fileio --file-num=10 --file-total-size=10G --file-block-size=16384 --file-test-mode=rndrw --file-io-mode=sync --file-extra-flags=direct --time=100  --threads=16 --report-interval=10 run
+#查看内存
+df -h
+
+sysbench oltp_read_write.lua --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-db=sbtest --mysql-user=root --mysql-password=root --table_size=200000000 --tables=1 --threads=500 --events=500000 --report-interval=10 --time=0
+docker-machine -s  create --engine-registry-mirror=https://rf483vio.mirror.aliyuncs.com -d virtualbox default
+docker-machine create -s "D:\docker\Dockerfile"  --engine-registry-mirror=https://bdgvztd0.mirror.aliyuncs.com -d virtualbox default
+sudo sed -i "s|EXTRA_ARGS='|EXTRA_ARGS='--registry-mirror=https://bdgvztd0.mirror.aliyuncs.com  |g" /var/lib/boot2docker/profile  
+  
+exit
+ docker run --name dockersmysql -e MYSQL_ROOT_PASSWORD=root -p 3307:3306 -d mysql
+docker exec -it mysql5.7 bash
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'root';
+ GRANT ALL PRIVILEGES ON *.*  ‘root’@’%’ identified by ‘root’ WITH GRANT OPTION; 
+ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY'root'
+
+docker rmi $(docker images -q)
+docker stop $(docker ps -aq)
+
+docker container run -p 3306:3306 --mount source=mysql,destination=/var/lib/mysql -v /etc/localtime:/etc/localtime -e MYSQL_ROOT_PASSWORD=root --name mysql -d mysql
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION;
+docker exec -it ubuntu-test /bin/bash
+
+
+
+
+202006080SO22
+临界区-并发进程中变量共享的程序段 临界资源-变量代表的的资源
+临界区管理的基本准则：1.一次最多一个进程进入临界区
+2.进入临界区的进程不能无限期停留
+3.进程不能无限等待，进入临界区的进程不能干扰其他进程
+
+202006080SO21
+  P1() {                          P2(){
+          y = 1;                        x = 1;
+          y = y + 3;               x = x + 5;
+          V(S1);                     P(S1);
+          z = y + 1;               x = x + y;
+          P(S2);                     V(S2);
+          y = z + y;               z = z + x;
+       }                                  }
+由于y=1,x=1,y=y+3,x=x+5这些操作是可以交错执行的，结果唯一的，而z=y+1不受x=x+y影响，按Bernstein条件z=5 ,y=z+y,z=z+x并发执行最后可得x=10,y=19，z=15
+
