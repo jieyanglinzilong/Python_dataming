@@ -2,8 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c330d8fd-1597-40d0-8567-bceb0f65dc33" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/.nojekyll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/MANIFEST.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/appveyor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/ci_scripts/appveyor/run_with_env.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/ci_scripts/circleci/build_doc.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/ci_scripts/circleci/checkout_merge_commit.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/ci_scripts/circleci/push_doc.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/ci_scripts/travis/install.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/ci_scripts/travis/success.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/ci_scripts/travis/test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/circle.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/doc/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/doc/api.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/doc/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/doc/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/doc/make.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/doc/randomized_lasso.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/doc/stability_selection.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/examples/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/examples/plot_randomized_lasso_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/examples/plot_stability_scores.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/setup.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/stability_selection/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/stability_selection/bootstrap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/stability_selection/randomized_lasso.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/stability_selection/stability_selection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/stability_selection/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/stability_selection/tests/test_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/stability_selection/tests/test_randomized_lasso.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/stability_selection/tests/test_stability_selection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py/lin_zi_long-stability-selection-master/stability-selection/stability_selection/tests/test_stratified_bootstrap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/决策树/01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/决策树/data/sales_data.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/逻辑回归/data/bankloan.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python02.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/逻辑回归/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/逻辑回归/01.py" afterDir="false" />
     </list>
@@ -23,18 +63,79 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1hRbKc0gr9Gh1FGQ35HGm2XmFGI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/aconda/envs/py37" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/决策树/data" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PythonProject\python02\决策树\data" />
+      <recent name="D:\PythonProject\python02\逻辑回归\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.01 (1)">
+    <configuration name="01 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/决策树" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/决策树/01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/逻辑回归" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/逻辑回归/01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.01 (1)" />
+        <item itemvalue="Python.01" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -47,21 +148,74 @@
       <option name="presentableId" value="Default" />
       <updated>1599976788632</updated>
       <workItem from="1599976790615" duration="16000" />
-      <workItem from="1599976841107" duration="1493000" />
+      <workItem from="1599976841107" duration="5389000" />
+      <workItem from="1600666260317" duration="5183000" />
+      <workItem from="1600671501785" duration="273000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Inspections" timestamp="1600666994658">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1600666994658" />
+    <state x="510" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600669971335">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="510" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1600669971335" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600671775965">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600671775965" />
     <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1599977701052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599977701052" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600671778921">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600671778921" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600671778921">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600671778921" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600671778921">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600671778921" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600671778921">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600671778921" />
+    <state width="746" height="261" key="GridCell.Tab.1.bottom" timestamp="1600671491449">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600671491449" />
+    <state width="746" height="261" key="GridCell.Tab.1.center" timestamp="1600671491449">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600671491449" />
+    <state width="746" height="261" key="GridCell.Tab.1.left" timestamp="1600671491449">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600671491449" />
+    <state width="746" height="261" key="GridCell.Tab.1.right" timestamp="1600671491449">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600671491449" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1599977734674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599977734674" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python02$01.coverage" NAME="01 Coverage Results" MODIFIED="1600666318403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/逻辑回归" />
+    <SUITE FILE_PATH="coverage/python02$01__1_.coverage" NAME="01 (1) Coverage Results" MODIFIED="1600671680322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/决策树" />
   </component>
 </project>
