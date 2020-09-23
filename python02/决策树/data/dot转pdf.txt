@@ -1,0 +1,2 @@
+Graphviz工具可视化决策树
+dot -Tpdf tree1.dot -o pic.pdf

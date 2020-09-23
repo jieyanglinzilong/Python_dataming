@@ -10,13 +10,14 @@ data[u'销量'][(data[u'销量']=='高')]= "1"
 data[u'是否有促销'][(data[u'是否有促销']=='是')]= "1"
 data[u'天气'][(data[u'天气']=='好')]= "1"
 data[data != "1"] = -1
-data=pd.DataFrame(data, dtype="int")
+data = pd.DataFrame(data, dtype="int")
 print(data)
 x = data.iloc[:,:3].values
 y = data.iloc[:,3].values
 dtc=DTC(criterion='entropy')
 dtc.fit(x, y)
+print(y)
+print(x)
 
 with open('tree.dot', 'w') as f:
-    f =export_graphviz(dtc, out_file=f)
-    f.close()
+    f =export_graphviz(dtc , out_file=f)
