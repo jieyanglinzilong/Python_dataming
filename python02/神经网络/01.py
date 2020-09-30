@@ -18,10 +18,10 @@ print(data)
 x = data.iloc[:,:3].values
 y = data.iloc[:,3].values
 model = Sequential()
-model.add(Dense(3, 10))
+model.add(Dense(input_dim = 3, output_dim = 10))
 model.add(Activation('relu'))
 model.add(Dense(10, 1))
-model.add(Dense(input_dim = 10, output_dim = 1))
+model.add(Dense(input_dim=10, output_dim = 1))
 model.add(Activation('sigmoid')) #由于是0-1输出，用sigmoid函数作为激活函数
 
 model.compile(loss = 'binary_crossentropy', optimizer = 'adam')
@@ -29,7 +29,7 @@ model.compile(loss = 'binary_crossentropy', optimizer = 'adam')
 #另外常见的损失函数还有mean_squared_error、categorical_crossentropy等，请阅读帮助文件。
 #求解方法我们指定用adam，还有sgd、rmsprop等可选
 
-model.fit(x, y, nb_epoch = 1000, batch_size = 10) #训练模型，学习一千次
+model.fit(x, y, nb_epoch=1000, batch_size = 10) #训练模型，学习一千次
 yp = model.predict_classes(x).reshape(len(y)) #分类预测
 
-cmplot(y,yp).show() #显示混淆矩阵可视化结果
+cmplot(y, yp).show() #显示混淆矩阵可视化结果
