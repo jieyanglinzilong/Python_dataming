@@ -27,7 +27,7 @@ y = data.iloc[:,3]
 model = Sequential()
 model.add(Dense(30, Activation('relu'), input_dim=3))
 #model.add)
-model.add(Dense(1, Activation('sigmoid'), 1))
+model.add(Dense(1, Activation('sigmoid'), 3))
 #model.add(Dense(input_dim=10, output_dim = 1))
 #model.add(Activation('sigmoid')) #由于是0-1输出，用sigmoid函数作为激活函数
 
@@ -36,7 +36,7 @@ model.compile(loss = 'binary_crossentropy', optimizer='adam', metrics=['accuracy
 #另外常见的损失函数还有mean_squared_error、categorical_crossentropy等，请阅读帮助文件。
 #求解方法我们指定用adam，还有sgd、rmsprop等可选
 
-model.fit(x, y, epochs=10000, batch_size =3) #训练模型，学习一千次
+model.fit(x, y, epochs=1000, batch_size =3) #训练模型，学习一千次
 print(shape(y))
 print(shape(x))
 print(x)
