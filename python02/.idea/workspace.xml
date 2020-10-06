@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c330d8fd-1597-40d0-8567-bceb0f65dc33" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kears学习笔记/01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/决策树/data/cm_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习/01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python02.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/决策树/data/02.py" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/data/02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/决策树/data/tree1.dot" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/data/tree1.dot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/神经网络/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/神经网络/01.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,28 +50,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.01 (3)">
-    <configuration name="01 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python02" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/决策树" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/决策树/01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="01 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python02" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,6 +94,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="01 (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/练习" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/练习/01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python02" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,12 +124,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/逻辑回归" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kears学习笔记" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/逻辑回归/01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kears学习笔记/01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,13 +160,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="python02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.01 (3)" />
-        <item itemvalue="Python.01 (2)" />
         <item itemvalue="Python.02" />
-        <item itemvalue="Python.01 (1)" />
         <item itemvalue="Python.01" />
+        <item itemvalue="Python.01 (4)" />
+        <item itemvalue="Python.01 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +211,15 @@
       <workItem from="1601035266177" duration="885000" />
       <workItem from="1601271522342" duration="2722000" />
       <workItem from="1601446558250" duration="1240000" />
+      <workItem from="1601561021728" duration="1249000" />
+      <workItem from="1601703207570" duration="1695000" />
+      <workItem from="1601708781221" duration="1064000" />
+      <workItem from="1601901196148" duration="7304000" />
+      <workItem from="1601911215462" duration="36000" />
+      <workItem from="1601911615361" duration="14000" />
+      <workItem from="1601911673278" duration="374000" />
+      <workItem from="1601974127991" duration="3339000" />
+      <workItem from="1601982951764" duration="677000" />
     </task>
     <servers />
   </component>
@@ -205,52 +242,53 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600671775965" />
-    <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1599977701052">
+    <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1601911247558">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599977701052" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1601447814461">
+    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601911247558" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1601983642771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601447814461" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1601447814461">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601983642771" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1601983642771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601447814461" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1601447814461">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601983642771" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1601983642771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601447814461" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1601447814461">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601983642771" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1601983642771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601447814461" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1600875466129">
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601983642771" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1601910376597">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600875466129" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1600875466129">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601910376597" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1601910376597">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600875466129" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1600875466129">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1601910376597" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1601910376597">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600875466129" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1600875466129">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1601910376597" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1601910376597">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600875466129" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1599977734674">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601910376597" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1601911691490">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599977734674" />
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601911691490" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python02$01__3_.coverage" NAME="01 (3) Coverage Results" MODIFIED="1601447705931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/神经网络" />
-    <SUITE FILE_PATH="coverage/python02$01.coverage" NAME="01 Coverage Results" MODIFIED="1600666318403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/逻辑回归" />
+    <SUITE FILE_PATH="coverage/python02$01__4_.coverage" NAME="01 (4) Coverage Results" MODIFIED="1601703628430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
+    <SUITE FILE_PATH="coverage/python02$01__3_.coverage" NAME="01 (3) Coverage Results" MODIFIED="1601983514383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/神经网络" />
+    <SUITE FILE_PATH="coverage/python02$01.coverage" NAME="01 Coverage Results" MODIFIED="1601902138640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kears学习笔记" />
     <SUITE FILE_PATH="coverage/python02$01__1_.coverage" NAME="01 (1) Coverage Results" MODIFIED="1600841233938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/决策树" />
-    <SUITE FILE_PATH="coverage/python02$02.coverage" NAME="02 Coverage Results" MODIFIED="1600874403232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/决策树/data" />
+    <SUITE FILE_PATH="coverage/python02$02.coverage" NAME="02 Coverage Results" MODIFIED="1601907676871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/决策树/data" />
     <SUITE FILE_PATH="coverage/python02$01__2_.coverage" NAME="01 (2) Coverage Results" MODIFIED="1601036034850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
   </component>
 </project>

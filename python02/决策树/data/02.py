@@ -2,6 +2,7 @@
 import os
 
 import xlrd
+from numpy import shape
 from sklearn.feature_extraction import DictVectorizer
 import csv
 from sklearn import preprocessing
@@ -55,13 +56,17 @@ for row in data:
 #print(lables)
 vec = DictVectorizer()
 x = vec.fit_transform(feature).toarray()
+
 print('特征提取后的X'+'\n'+str(x))
 # print(headers)
 lab = preprocessing.LabelBinarizer()
 print(lables)
 y = lab.fit_transform(lables)
+
 print('Y'+'\n'+str(y))
 result = tree.DecisionTreeClassifier(criterion='entropy')
 result.fit(x,y)
 with open('tree1.dot', 'w') as f:
     f = tree.export_graphviz(result,out_file=f,feature_names=vec.get_feature_names())
+print(shape(x))
+print(shape(y))
