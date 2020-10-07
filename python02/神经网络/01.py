@@ -6,10 +6,7 @@ import pandas as pd
 from cmplot import *
 #参数初始化
 from numpy import shape
-
-
 from 决策树.data.cm_plot import cm_plot
-
 inputfile = 'D:/PythonProject/python02/决策树/data/sales_data.xls '
 data = pd.read_excel(inputfile, index_col = u'序号') #导入数据
 header = data.columns.values;
