@@ -4,7 +4,7 @@ from mxnet.gluon import loss as gloss, nn
 bathsize = 256
 trainer_iter, test_iter = d2l.load_data_fashion_mnist(bathsize)
 net = nn.Sequential()
-net.add(nn.Dense(10))
+net.add(nn.Dense(20))
 net.initialize(init.Normal(sigma=0.01))
 loss = gloss.SoftmaxCELoss()
 trainer = gluon.Trainer(net.collect_params(), 'sgd', {'learning_rate': 0.1})
