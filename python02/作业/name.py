@@ -1,11 +1,10 @@
 import sys
-user= []*100
+user = []*100
 userlist = list()
 dellsit = list()
 updatelist = list()
 n = 0
 def main():
-    
       print("*****欢迎使用名片管理系统*****")
       print("输出你想要做的事")
       print("1 添加用户")
