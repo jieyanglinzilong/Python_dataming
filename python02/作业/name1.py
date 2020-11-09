@@ -1,5 +1,4 @@
 import sys
-
 cardlist = list()
 class Card:
     def __init__(self, name, email, phone, age):
@@ -11,8 +10,10 @@ class Card:
         if (self.name == name):
             print(self.__str__())
     def findObject(self, name):
-        if(self.name == name):
+        if self.name == name:
             return True
+        else:
+            return False
     def updateName(self, newName):
         self.name = newName
     def updateAge(self, newAge):
@@ -36,21 +37,26 @@ def readFile():
                phone = CardObjetc[2]
                email = CardObjetc[3]
                card = Card(name, email, phone, age)
+               i = i+1
+               print(i)
                cardlist.append(card)
             else:
                break
 
     except Exception:
-         file = open('data.data', 'w+')
+         file = open('data.data', 'w', encoding='uft-8')
 def findAll():
     print("******本系统的全部用户信息如下")
-    print("用户名    邮箱     电话")
-    for i in range(len(cardlist)):
-        print(cardlist[i])
-def findOne():
+    print("用户名    邮箱     电话  年龄")
     for i in range(len(cardlist)):
         card = cardlist[i]
-        name = input("输入查找的姓名")
+        print(card.__str__())
+
+
+def findOne():
+    name = input("输入查找的姓名")
+    for i in range(len(cardlist)):
+        card = cardlist[i]
         card.find(name)
 def add():
     name = input("输入用户姓名 ")
@@ -64,9 +70,13 @@ def delete():
     for i in range(len(cardlist)):
         card = cardlist[i]
         flag = card.findObject(name)
-    if(flag == True):
-       cardlist.pop(i)
-       print("删除成功")
+        print(flag)
+        if(flag == True):
+          cardlist.remove(card)
+          print("删除成功")
+        else:
+            print("删除失败")
+            break
 def update():
     name = input("输入要修改用户的姓名")
     for i in range(len(cardlist)):
@@ -101,7 +111,8 @@ def update():
         print("查无此人")
 def save():
     file = open('data.data', 'w', encoding='utf-8')
-    for card in cardlist:
+    for i in range(len(cardlist)):
+       card=cardlist[i]
        print(card.__str__())
        file.writelines(card.__str__())
 
@@ -129,6 +140,12 @@ def main():
         sys.exit(0)
     if num=="6":
         findOne()
+
+
 if __name__=="__main__":
+   readFile()
    while(True):
     main()
+
+
+

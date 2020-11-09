@@ -24,7 +24,7 @@ def main():
       if num =="5":
          sys.exit(0)
 def add():
-    name   =   input("输入用户姓名 ")
+    name =   input("输入用户姓名 ")
     email  = input("输入用户邮箱 ")
     phone  = input("输入用户电话 ")
     user = [name,email,phone]
