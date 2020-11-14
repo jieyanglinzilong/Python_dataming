@@ -26,7 +26,7 @@ class Card:
         return ' %s %s %s %s\n'%(self.name, self.age, self.phone, self.email)
 def readFile():
     try:
-        file = open('data.data', 'r', encoding='utf-8')
+        file = open('data.data', 'r')
         while (1):
             line = file.readline()
             if line:
@@ -44,7 +44,7 @@ def readFile():
                break
 
     except Exception:
-         file = open('data.data', 'w', encoding='uft-8')
+         file = open('data.data', 'w')
 def findAll():
     print("******本系统的全部用户信息如下")
     print("用户名    邮箱     电话  年龄")

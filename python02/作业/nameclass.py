@@ -26,8 +26,9 @@ class Card:
     def __str__(self):
         return ' %s %s %s %s\n'%(self.name, self.age, self.phone, self.email)
 def readFile():
-    
+    try:
         file = open('./name.txt', 'r+')
+        i=0
         while (1):
             line = file.readline()
             if line:
@@ -38,20 +39,34 @@ def readFile():
                phone = CardObjetc[2]
                email = CardObjetc[3]
                card = Card(name, email, phone, age)
-               i = i+1
-               print(i)
+
                cardlist.append(card)
+               #print(i, card)
             else:
+
                break
-        file.close()
+    except Exception:
+        file = open('data.txt', 'w')
+    #print(len(cardlist))
+    file.close()
 
     
 def findAll():
     print("******本系统的全部用户信息如下")
     print("用户名    邮箱     电话  年龄")
+    print(len(cardlist))
+    j=0
     for i in range(len(cardlist)):
         card = cardlist[i]
+        j = len(cardlist)
+
+        print(j)
         print(card.__str__())
+
+
+    #print(len(cardlist))
+    #for val in enumerate(cardlist):
+    #    print(val)
 
 
 def findOne():
@@ -63,9 +78,12 @@ def add():
     name = input("输入用户姓名 ")
     email = input("输入用户邮箱 ")
     phone = input("输入用户电话 ")
-    age =   input("输入年龄     ")
-    card=Card(name, email, phone, age)
+    age = input("输入年龄     ")
+    card = Card(name, email, phone, age)
     cardlist.append(card)
+    #print(card)
+    print(len(cardlist))
+    print("****")
 def delete():
     name = input("输入要删除的用户名")
     for i in range(len(cardlist)):
@@ -113,8 +131,8 @@ def save():
     for i in range(len(cardlist)):
        card=cardlist[i]
        print(card.__str__())
-       file.write("\n"+card.__str__())
-       file.close()
+       file.writelines(card.__str__())
+    file.close()
 
 def main():
     print("*****欢迎使用名片管理系统*****")
@@ -126,6 +144,7 @@ def main():
     print("5 保存退出")
     print("6 查找用户请输入")
     num = input("输入您的选择 ")
+    #print(len(cardlist))
     readFile()
     if num == "1":
         add()

@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-dist_prodilt = 'D:/python/data/03/catering_dish_profit.xls'
+dist_prodilt = '../data/03/catering_dish_profit.xls'
 data = pd.read_excel(dist_prodilt, index_col=u'菜品名')
 data = data[u'盈利'].copy()
 data.sort_values(ascending=False)

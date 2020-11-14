@@ -1,9 +1,9 @@
 import pandas as pd
 import numpy as np
 import re
-from  matplotlib import pyplot as plt
+from matplotlib import pyplot as plt
 from matplotlib import font_manager
-catering_sale='D:/python/data/04/笔记本电脑.xlsx'
+catering_sale = '笔记本电脑.xlsx'
 my_font = font_manager.FontProperties(fname="C:/Windows/Fonts/msyhbd.ttc")
 data = pd.read_excel(catering_sale,  usecols=[1])
 data1=pd.read_excel(catering_sale,usecols=[2])
@@ -45,24 +45,24 @@ for i in n4:
  g = list(map(int,string))
  info1.append(g)
  k=k+1
-print(len(info))
-print(len(info1))
+#print(len(info))
+#print(len(info1))
 ln=len(info)-len(info1)
 print(type(ln))
 print(ln)
 for z in range(ln):
   info1.append(0)
-print(type(info1))
-print(type(info))
-print(info[0])
-print(info1[0])
+#print(type(info1))
+#print(type(info))
+#print(info[0])
+#print(info1[0])
 #while z<len(info1):
  # l={info1[z]:info[z]}
 #print(l)
 print(len(info)-len(info1))
 x=range(len(info1))
-info=list(map())
-plt.plot(x,info)
+info = list(map())
+plt.plot(x, info)
 print("*****")
 #设置x轴刻度
 _xtick_labels = ["{}元".format(i) for i in x]
