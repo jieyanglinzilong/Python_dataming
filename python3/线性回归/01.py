@@ -1,21 +1,22 @@
 from mxnet import init
 from mxnet.gluon import nn
 from mxnet import autograd, nd
-from mxnet.gluon import  data as gdata
+from mxnet.gluon import data as gdata
 from mxnet import gluon
-from mxnet.gluon import  loss as gloss
+from mxnet.gluon import loss as gloss
 num = 2
 num_example = 1000
 true_w = [2, -3.4]
 true_b = 4.2
 fea = nd.random.normal(scale=1, shape=(num_example, num))
+print(fea)
 labes = true_w[0] * fea[:, 0] + true_w[1] * fea[:, 1] + true_b
 labes += nd.random.normal(scale=0.01, shape=labes.shape)
 batch = 10
-dataset = gdata.ArrayDataset(fea,labes)
+dataset = gdata.ArrayDataset(fea, labes)
 data_iter = gdata.DataLoader(dataset=dataset, batch_size=batch, shuffle=True)
 for x, y in data_iter:
-    print(x, y)
+    #print(x, y)
     break
 net = nn.Sequential()
 net.add(nn.Dense(1))
@@ -30,7 +31,7 @@ for epoch in range(1, num_epoch+1):
         l.backward()
         trainer.step(batch)
     l = loss(net(fea), labes)
-    print(epoch+1, l.mean().asnumpy())
+    #print(epoch+1, l.mean().asnumpy())
 dense =net[0]
 print(dense.weight.data())
 

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05d666ab-1a59-499d-9d2e-59aeb739f0f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../python02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python02/作业/car_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python02/作业/car_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python02/作业/car_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python02/作业/car_tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python02/作业/data.data" beforeDir="false" afterPath="$PROJECT_DIR$/../python02/作业/data.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python02/作业/name1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python02/作业/name1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python02/作业/nameclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python02/作业/nameclass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python3/线性回归/pandas/01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python3/线性回归/pandas/笔记本电脑.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +87,9 @@
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -110,6 +109,9 @@
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据规约" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -148,6 +150,9 @@
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -273,6 +278,7 @@
       <workItem from="1599704362492" duration="698000" />
       <workItem from="1599974568440" duration="1991000" />
       <workItem from="1605340399385" duration="7153000" />
+      <workItem from="1605405486349" duration="3367000" />
     </task>
     <servers />
   </component>
@@ -339,10 +345,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="421" y="82" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1598603750576" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598605104486">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605407963272">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598605104486" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605407963272" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python$09.coverage" NAME="09 Coverage Results" MODIFIED="1598325875682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matip" />
