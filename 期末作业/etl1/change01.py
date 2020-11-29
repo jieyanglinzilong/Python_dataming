@@ -16,8 +16,8 @@ def change(filename):
  nrows = table.nrows  # 行数
  ncols = table.ncols  # 列数
  colnames = table.row_values(1)
- print(ncols)
- print(colnames)
+ #print(ncols)
+ #print(colnames)
  for ronum in range(1, nrows):  # 控制显示第几行，即去除行标题之类的
    row = table.cell_value(rowx=ronum, colx=2)  # 只需要修改你要读取的列数-1
    row = str(row)
