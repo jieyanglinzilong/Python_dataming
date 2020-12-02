@@ -2,6 +2,7 @@
 from sklearn.linear_model import LinearRegression
 from matplotlib import  pyplot as plt
 import pandas as pd
+import statsmodels.api as sm
 filename = '../data/汇总.xls'
 data = pd.read_excel(filename)
 print(data.head(5))
@@ -25,3 +26,6 @@ regr.fit(x, y)
 
 #系数  截距
 print(str(regr.coef_[0]), str(regr.intercept_))
+x2 = sm.add_constant(x)
+est = sm.OLS(y, x2).fit()
+print(est.summary())
