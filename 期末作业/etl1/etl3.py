@@ -8,21 +8,21 @@ lines = fopen.readlines()
 file = xlwt.Workbook(encoding='utf-8', style_compression=0)
 #新建一个sheet
 sheet = file.add_sheet('data')
-i = 0
+i = 1
 location = ""
 service =""
 fact = ""
 health = ""
 j=0
 for line in lines:
-
-    if i ==0:
+    if i ==1:
+        print(location)
         location=line
-    if i == 1:
+    if i == 2:
         fact=line
-    if i ==2:
+    if i ==3:
         service=line
-    if i >=3:
+    if i >=4:
         j+=1
         health = line
         sheet.write(j, 0, location)
