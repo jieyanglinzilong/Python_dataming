@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c330d8fd-1597-40d0-8567-bceb0f65dc33" name="Default Changelist" comment="了解聚类算法">
+      <change afterPath="$PROJECT_DIR$/作业/sqles.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../期末作业/Tree/01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../期末作业/data/ctrip_hotel_comments_sample_utf8_1000.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../期末作业/data/pinup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../期末作业/data/用户评论.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../期末作业/etl1/change02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../期末作业/etl1/用户评论.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../期末作业/etl1/用户评论.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/car_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/car_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/car_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/car_tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/data.data" beforeDir="false" afterPath="$PROJECT_DIR$/作业/data.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/name1.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/name1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/nameclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/nameclass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../期末作业/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../期末作业/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../期末作业/etl1/change01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../期末作业/etl1/change01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../期末作业/etl1/jieba01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../期末作业/etl1/jieba01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../期末作业/etl1/各项评分.xlxs" beforeDir="false" afterPath="$PROJECT_DIR$/作业/sales.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +46,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/作业" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PythonProject\python02\关联算法" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PythonProject\python02\作业" />
       <recent name="D:\PythonProject\python02\关联算法" />
@@ -49,11 +60,8 @@
       <recent name="D:\PythonProject\python02\聚类分析\data" />
       <recent name="D:\PythonProject\python02\决策树\data" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PythonProject\python02\关联算法" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.nameclass">
+  <component name="RunManager" selected="Python.ui">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="python02" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,28 +128,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python02" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="name1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python02" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,13 +172,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/ui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ui" />
         <item itemvalue="Python.nameclass" />
         <item itemvalue="Python.name1" />
         <item itemvalue="Python.car_tools" />
         <item itemvalue="Python.car_main" />
-        <item itemvalue="Python.file" />
       </list>
     </recent_temporary>
   </component>
@@ -240,6 +245,7 @@
       <workItem from="1605181059217" duration="3198000" />
       <workItem from="1605184306212" duration="1720000" />
       <workItem from="1605340329209" duration="68000" />
+      <workItem from="1607921166062" duration="4127000" />
     </task>
     <task id="LOCAL-00001" summary="完成神经网络的学习">
       <created>1601984138793</created>

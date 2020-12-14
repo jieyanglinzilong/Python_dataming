@@ -12,7 +12,9 @@ import matplotlib.pyplot as plt
 import jieba
 # 生成词云
 def create_word_cloud(filename):
-    text = open("{}.txt".format(filename)).read()
+    filename = '../data/' + filename
+    with open(filename, 'rb') as f:
+        text = f.read()
     # 结巴分词
     wordlist = jieba.cut(text, cut_all=True)
     wl = " ".join(wordlist)
@@ -36,7 +38,7 @@ def create_word_cloud(filename):
     plt.imshow(myword)
     plt.axis("off")
     plt.show()
-    wc.to_file("评论.png")
+    wc.to_file("用户评论.png")
 
 """"
     
@@ -50,4 +52,4 @@ def create_word_cloud(filename):
 """""
 # 把词云保存下
 #if __name__ == '__main__':
-
+create_word_cloud('用户评论.txt')
