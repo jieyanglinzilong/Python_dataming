@@ -15,10 +15,12 @@ def create_word_cloud(filename):
     filename = '../data/' + filename
     with open(filename, 'rb') as f:
         text = f.read()
+        print(1)
     # 结巴分词
     wordlist = jieba.cut(text, cut_all=True)
     wl = " ".join(wordlist)
     print(wl)
+
     # 设置词云
     wc = WordCloud(
         # 设置背景颜色
@@ -30,7 +32,7 @@ def create_word_cloud(filename):
         height=1200,
         width=1600,
         # 设置字体最大值
-        max_font_size=100,
+        max_font_size=1000,
         # 设置有多少种随机生成状态，即有多少种配色方案
         random_state=30,
     )

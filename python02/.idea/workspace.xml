@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c330d8fd-1597-40d0-8567-bceb0f65dc33" name="Default Changelist" comment="了解聚类算法">
-      <change afterPath="$PROJECT_DIR$/作业/sqles.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/ui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../期末作业/Tree/01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../期末作业/data/ctrip_hotel_comments_sample_utf8_1000.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../期末作业/data/pinup.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../期末作业/data/用户评论.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../期末作业/etl1/change02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../期末作业/etl1/用户评论.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../期末作业/etl1/用户评论.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../期末作业/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../期末作业/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../期末作业/etl1/change01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../期末作业/etl1/change01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../期末作业/etl1/jieba01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../期末作业/etl1/jieba01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../期末作业/etl1/各项评分.xlxs" beforeDir="false" afterPath="$PROJECT_DIR$/作业/sales.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,6 +163,9 @@
       <module name="python02" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -245,7 +235,8 @@
       <workItem from="1605181059217" duration="3198000" />
       <workItem from="1605184306212" duration="1720000" />
       <workItem from="1605340329209" duration="68000" />
-      <workItem from="1607921166062" duration="4127000" />
+      <workItem from="1607921166062" duration="4604000" />
+      <workItem from="1608732005253" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="完成神经网络的学习">
       <created>1601984138793</created>
